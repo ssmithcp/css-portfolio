@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css --recursive"
+    "sass": "node-sass -w scss/ -o dist/css --recursive",
+    "sass-once": "node-sass scss/ -o dist/css --recursive",
+    "copy": "cp -r img/ dist && cp -r js/ dist"
   },
   "keywords": [],
   "author": "",
