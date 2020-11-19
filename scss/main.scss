@@ -205,6 +205,61 @@ footer {
 
 .skills {
   color: $light-color;
+  padding-bottom: 2rem;
+
+  h1 {
+    font-size: 200%;
+  }
+
+  h4 {
+    font-size: 120%;
+    margin-bottom: 0.5rem;
+  }
+
+  .progress {
+    background-color: $light-color;
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+
+    div {
+      padding-bottom: 1.5rem;
+      background-color: $main-color;
+    }
+  }
+}
+
+.company-logos img {
+  padding: 1rem 2rem;
+}
+
+.testimonial {
+  padding: 0 1rem;
+
+  p {
+    border: 1px solid $medium-color;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+  }
+
+  ul {
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+
+  li {
+    display: inline;
+  }
+
+  img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
 }
 
 @import "media";

@@ -28,6 +28,7 @@ img {
 .container {
   max-width: $website-width;
   margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
 %btn-shared {
@@ -64,7 +65,7 @@ img {
 }
 
 .section-header {
-  margin: 2rem 0 1rem 0;
+  padding: 2rem 0 1rem 0;
   text-align: center;
 
   h1 {
@@ -89,7 +90,7 @@ img {
 }
 
 .tile-wrapper {
-  padding: 2rem;
+  padding: 2rem 0;
   text-align: center;
   display: flex;
 
@@ -136,4 +137,8 @@ img {
 
 .bg-dark {
   background-color: $dark-color;
+}
+
+.bg-light {
+  background-color: $light-color;
 }
