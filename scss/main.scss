@@ -1,5 +1,5 @@
-@import 'utilities';
-@import 'media';
+@import "utilities";
+@import "media";
 
 .showcase {
   position: relative;
@@ -13,7 +13,7 @@
   }
 
   &::before {
-    content: '';
+    content: "";
     background: $bg-image no-repeat center right / cover;
     top: 0;
     height: 100%;
@@ -38,9 +38,9 @@
 
       a {
         color: $light-color;
-        padding: .5rem 0;
+        padding: 0.5rem 0;
 
-        border-bottom-width: .2rem;
+        border-bottom-width: 0.2rem;
         border-bottom-style: solid;
         border-bottom-color: transparent;
 
@@ -60,7 +60,7 @@
   div:last-child {
     flex-direction: column;
     color: $light-color;
-    
+
     h1 {
       margin-top: 20%;
       font-size: 350%;
@@ -84,7 +84,7 @@
     font-size: 350%;
     color: $light-color;
     background-color: $dark-color;
-    
+
     height: 6rem;
     width: 6rem;
     line-height: 6rem;
@@ -95,7 +95,7 @@
 
     &:hover {
       background-color: $main-color;
-    
+
       height: 7.5rem;
       width: 7.5rem;
       line-height: 7.5rem;
@@ -150,7 +150,7 @@ footer {
         line-height: 2.2rem;
 
         text-align: center;
-        padding: .35rem;
+        padding: 0.35rem;
 
         border-radius: 50%;
         border: 2px solid $light-color;
@@ -165,4 +165,4 @@ footer {
   }
 }
 
-@import 'media';
+@import "media";
