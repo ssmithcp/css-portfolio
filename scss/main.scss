@@ -262,4 +262,32 @@ footer {
   }
 }
 
+#contact {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#contact-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+
+  input {
+    line-height: 2rem;
+    padding: 0 1rem;
+  }
+
+  textarea {
+    grid-column: 1 / span 2;
+    height: 7rem;
+    padding: 1rem;
+  }
+}
+
+#contact-methods {
+  padding: 2rem;
+  justify-content: space-around;
+  color: $light-color;
+}
+
 @import "media";
