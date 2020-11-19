@@ -232,6 +232,7 @@ footer {
 
 .company-logos img {
   padding: 1rem 2rem;
+  width: 25%;
 }
 
 .testimonial {
@@ -288,6 +289,15 @@ footer {
   padding: 2rem;
   justify-content: space-around;
   color: $light-color;
+}
+
+#start-project {
+  text-align: center;
+  background-color: $main-color;
+  color: $light-color;
+
+  font-size: 3rem;
+  padding: 4rem 0;
 }
 
 @import "media";
