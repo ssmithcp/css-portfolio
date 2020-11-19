@@ -3,10 +3,12 @@ $main-color: #ffbc00;
 $light-color: #f4f4f4;
 $medium-color: #ccc;
 $dark-color: #333;
-$bg-image: url('/img/showcase.jpg');
-$short-duration: .5s;
+$bg-image: url("/img/showcase.jpg");
+$short-duration: 0.5s;
 $medium-duration: 1s;
 $long-duration: 2s;
+
+$default-border: 0.2rem solid $main-color;
 
 @function set-text-color($color) {
   @if (lightness($color) > 50) {

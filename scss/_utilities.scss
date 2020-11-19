@@ -64,6 +64,7 @@ img {
 }
 
 .section-header {
+  margin: 2rem 0 1rem 0;
   text-align: center;
 
   h1 {
@@ -87,27 +88,21 @@ img {
   }
 }
 
-.titled-tiles {
+.tile-wrapper {
   padding: 2rem;
+  text-align: center;
+  display: flex;
 
-  .tile-wrapper {
-    text-align: center;
+  .tile {
+    margin: 1rem;
+    position: relative;
 
-    display: flex;
-    margin-top: 2rem;
+    i {
+      margin-bottom: 0.5rem;
+    }
 
-    .tile {
-      margin: 1rem;
-      position: relative;
-
-      i {
-        font-size: 200%;
-        margin-bottom: 0.5rem;
-      }
-
-      h3 {
-        text-transform: uppercase;
-      }
+    h3 {
+      text-transform: uppercase;
     }
   }
 }
@@ -137,4 +132,8 @@ img {
       background-color: $medium-color;
     }
   }
+}
+
+.bg-dark {
+  background-color: $dark-color;
 }

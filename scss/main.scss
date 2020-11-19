@@ -4,7 +4,7 @@
 .header {
   position: relative;
 
-  border-bottom: 0.2rem solid $main-color;
+  border-bottom: $default-border;
 
   div {
     display: flex;
@@ -40,7 +40,8 @@
         color: $light-color;
         padding: 0.5rem 0;
 
-        border-bottom: 0.2rem solid transparent;
+        border-bottom: $default-border;
+        border-bottom-color: transparent;
 
         transition: border $short-duration;
 
@@ -82,6 +83,7 @@
 
 #specialize i {
   color: $main-color;
+  font-size: 200%;
 }
 
 #process {
@@ -170,6 +172,39 @@ footer {
       }
     }
   }
+}
+
+.about-me {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1rem;
+  padding: 1rem 2rem;
+
+  h4 {
+    font-size: 120%;
+    margin: 1rem 0;
+  }
+
+  &-description {
+    padding: 1rem;
+    background-color: $light-color;
+    border-left: $default-border;
+  }
+}
+
+.awards {
+  h3 {
+    font-size: 130%;
+    margin: 1rem;
+  }
+
+  i.fa-award {
+    color: $main-color;
+  }
+}
+
+.skills {
+  color: $light-color;
 }
 
 @import "media";
