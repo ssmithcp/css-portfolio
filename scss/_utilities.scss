@@ -29,6 +29,7 @@ img {
   max-width: $website-width;
   margin: 0 auto;
   padding: 0 1.5rem;
+  overflow: hidden;
 }
 
 %btn-shared {
@@ -93,7 +94,7 @@ img {
   padding: 2rem 0;
   text-align: center;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 
   .tile {
     margin: 1rem;
