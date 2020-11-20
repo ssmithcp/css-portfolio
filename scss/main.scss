@@ -301,4 +301,70 @@ footer {
   padding: 4rem 0;
 }
 
+#work-tiles {
+  margin: 1rem 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  img,
+  .work-title-overlay,
+  .work-title-background-overlay {
+    transition: $short-duration;
+  }
+
+  .work {
+    &-tile {
+      position: relative;
+      overflow: hidden;
+
+      &:hover {
+        img {
+          transform: scale(1.2);
+        }
+
+        .work-title-overlay {
+          transform: translateY(0);
+        }
+
+        .work-title-background-overlay {
+          transform: translateX(0) rotate(0);
+        }
+      }
+    }
+
+    &-title-background-overlay {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+
+      background-color: $main-color;
+      opacity: 0.95;
+
+      transform: translateX(-100%) rotate(-180deg);
+    }
+
+    &-title-overlay {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+
+      transform: translateY(-100%);
+      transition-delay: $short-duration / 2;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      color: #fff;
+      font-size: 150%;
+      font-weight: 500;
+    }
+  }
+}
+
 @import "media";
