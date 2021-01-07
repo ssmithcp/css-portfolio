@@ -1,5 +1,5 @@
 ## Running and launching
-To build the site run `npm install`, `npm run sass-once` and `npm run copy`. The site's base directory is /dist. I used live server in VSCode to run and test. As of writing this (1/1/2021), this site is live at https://www.liftmetrics.net/ - check it out! It is hosted with netlify.com.
+To build the site run `npm install`, `npm run sass-once` and `npm run copy`. The site's base directory is /dist. I used live server in VSCode to run and test. As of writing this (1/1/2021), this site is live at https://quizzical-leavitt-48e17c.netlify.app/ and possibly https://www.liftmetrics.net/ - check it out!
 
 # John Doe's portfolio!
 
